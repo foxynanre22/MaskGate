@@ -9,7 +9,7 @@ The aim of the project is to create a model of a neural network to recognize peo
 
 # Technologies used
 - [Pandas](https://pandas.pydata.org/)
-- [Keras]((https://keras.io/))
+- [Keras]((https://keras.io/)
 - [TensorFlow](https://www.tensorflow.org/)
 - [HTML](https://devdocs.io/html/)
 - [JQuery](https://api.jquery.com/)
