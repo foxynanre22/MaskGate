@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mask Gate</title>
+</head>
+
+<body>
+
+
+
+
+    <div class="center">
+        <h1>Welcome!</h1>
+        <p>Let's check for your mask!</p>
+        <a class="link" href="2strona.html">Start</a>
+
+    </div>
+
+
+
+    <style>
+        body {
+            background: #000 url(321.png);
+            background-attachment: fixed;
+        }
+        
+        body::after {
+            content: "";
+            background: black;
+            opacity: 0.2;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: fixed;
+            z-index: -1;
+        }
+        
+        .center {
+            margin: auto;
+            width: 50%;
+            border: 3px solid white;
+            padding: 20px;
+            margin-top: 70px;
+        }
+        
+        div {
+            width: 2000px;
+            height: 500px;
+            border-radius: 10px;
+            box-sizing: content-box;
+            background: rgb(13, 216, 132);
+        }
+        
+        h1 {
+            text-shadow: 5px 4px 3px #999;
+            margin: auto;
+            width: 50%;
+            padding-left: 100px;
+            padding-top: 120px;
+            font-size: 45pt;
+        }
+        
+        p {
+            text-shadow: 5px 4px 3px #999;
+            margin: auto;
+            width: 50%;
+            padding-left: 100px;
+            padding-top: 20px;
+            font-size: 20pt;
+        }
+        
+        a {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            margin-left: 220px;
+            margin-bottom: 160px;
+            border: 3px solid black;
+            padding: 10px;
+            background: black;
+            border-radius: 10px;
+            font-size: 20pt;
+        }
+    </style>
+
+</body>
+
+</html>
